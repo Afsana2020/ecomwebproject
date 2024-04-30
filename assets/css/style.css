@@ -1,0 +1,799 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+.nav-buttons{
+    margin-left: 60%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+   
+    font-weight: 700;
+}
+
+h2{
+
+    font-weight: 600;
+}
+
+h3{
+ 
+    font-weight: 800;
+}
+
+h4{
+
+    font-weight: 600;
+}
+
+h5{
+
+    font-weight: 400;
+}
+
+
+.navbar{
+ font-size: 16px;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ top: 0;
+ left: 0;
+ box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-nav .nav-link{
+
+    padding: 0 20px;
+    
+    transition: 0.4s ease;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar svg:hover,
+.navbar-light .navbar-nav .nav-link:active.navbar svg:hover{
+    color: rgb(34, 74, 194);
+}
+
+.navbar .logo{
+    color: rgb(64, 64, 238);
+    margin: 3px 5px;
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width:900px)
+{
+    .nav-buttons{
+        margin: 10px;
+    }
+
+    .nav-buttons ul{
+        margin:1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-buttons ul svg{
+        margin: 2px 0px;
+    }
+
+}
+
+
+#car img{
+
+    width: 100%;
+    height: 100vh;
+  
+   
+}
+
+
+.caption1{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    
+    
+}
+
+
+.caption2{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    color: white;
+    
+}
+
+
+.caption3{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    color: white;
+    
+}
+
+.com{
+    color: rgb(34, 74, 194);
+    font-size: 50px;
+    
+    
+}
+
+.navbar img{
+    width: 5%;
+    border-radius: 50%;
+}
+
+#new .one img{
+width: 100%;
+height: 120%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#new .one{
+
+    position: relative;
+}
+
+#new .one .details{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    transition: 0.4s ease;
+    opacity: 0.7;
+    background-color: rgb(1,1,1);
+    width: 100%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+
+}
+
+
+#new .one .details:hover{
+    background-color: gray;
+
+}
+
+#new .one .details button:hover{
+    background-color:   rgb(71, 115, 244);
+ 
+}
+
+
+#car2 .carousel-inner .carousel-item img
+{
+width: 100%;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 50px;
+
+
+}
+
+#car2 .carousel-inner .carousel-item button:hover
+{
+   background-color: blanchedalmond;
+   color: black;
+}
+
+
+
+
+#phone .card{
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+#phone .card .card-body{
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+}
+
+
+
+#phone .card img{
+
+width: 90%;
+height: 60%;
+
+}
+
+#phone .card a{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    margin: 3px 0;
+}
+
+
+#phone .card a:hover{
+
+    background-color:rgb(69, 69, 237);
+    color: white;
+  
+}
+
+#d1 img{
+    width: 100%;
+    height: 300px;
+}
+
+
+#laptop .card{
+    width: 100%;
+    height: 500px;
+    box-shadow: 5px 10px 10px white;
+    
+}
+
+#laptop .card .card-body{
+    margin: 10px 0;
+}
+
+#laptop .card img{
+
+    width: 70%;
+    height: 70%;
+}
+
+
+#laptop .card a{
+ background-color: black;
+ color: white;
+        opacity: 0.8;
+        margin: 5px 0px;
+}
+    
+#laptop .card a:hover{
+    
+        background-color:rgb(69, 69, 237);
+        color: white;
+      
+}
+
+#screen
+{
+height: 100vh;
+background-image: url(/assets/imgs/bg-watch.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+#screen .card{
+   
+  width: 100%;
+  height: 400px;
+  margin-top: 180px;
+  box-shadow: 5px 10px 10px;
+}
+
+
+
+
+#screen .card img{
+
+    width: 50%;
+    height: 50%;
+}
+
+
+#screen .card a{
+ background-color: black;
+ color: white;
+        opacity: 0.8;
+        margin: 5px 0px;
+}
+    
+#screen .card a:hover{
+    
+        background-color:rgb(69, 69, 237);
+        color: white;
+      
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+}
+footer h5{
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #dbdbdb;
+}
+
+footer .copyright a{
+
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+    
+
+
+}
+
+footer .copyright a:hover{
+
+    color: #fff;
+    background-color: rgb(57, 57, 255);
+}
+
+footer .copyright img{
+    width: 40%;
+}
+
+footer .footlogo{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+
+
+#product .card{
+    width: 100%;
+    height: 500px;
+    box-shadow: 5px 10px 10px;
+    
+}
+
+#product .card .card-body{
+    margin: 10px 0;
+}
+
+
+
+#product .card img{
+
+    width: 70%;
+    height: 70%;
+}
+
+
+#product .card a{
+ background-color: black;
+ color: white;
+        opacity: 0.8;
+        margin: 5px 0px;
+}
+    
+#product.card a:hover{
+    
+        background-color:rgb(69, 69, 237);
+        color: white;
+      
+}
+
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+ 
+
+.single-product .buy-btn{
+   opacity: 1;
+   transition: 0.4s all;
+}
+
+.single-product .buy-btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+.single-product input:focus{
+    outline: none;
+}
+
+/* cart */
+
+
+
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color:  rgb(21, 128, 200) ;
+    
+}
+
+.cart .table-1 td{
+
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px rgb(74, 174, 240);
+
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart td a{
+    color: rgb(21, 128, 200) ;
+    text-decoration: none;
+}
+
+.cart .remove-btn{
+    color: rgb(21, 128, 200) ;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    width: auto;
+    
+
+}
+.cart .edit-btn{
+    color: rgb(21, 128, 200) ;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    
+}
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+.cart-total table{
+    margin: 50px 0;
+}
+
+.cart-total td{
+    padding: 5px 10px;
+    background-color:  rgb(21, 128, 200);
+    color: white;
+    box-shadow: 0px 0px 5px rgb(245, 248, 250);
+    
+}
+
+.cart-total td:last-child{
+    text-align: right;
+}
+
+.check-out{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.check-out button:hover{
+    background-color: white;
+    color: rgb(21, 128, 200);
+    width: 200px;
+}
+
+
+/* login */
+
+#login-form{
+    width:100%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgb(21, 128, 200);
+}
+
+#login-form input{
+    width: 100%;
+    margin: 10px auto;
+    
+}
+
+#login-form #login-btn{
+    background-color:  rgb(21, 128, 200);
+    color: #fff;
+}
+
+#login-form #register-url{
+   color: rgb(21, 128, 200);
+}
+
+
+/* register */
+
+#register-form{
+    width:100%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solidrgb(128, 110, 254);
+}
+
+#register-form input{
+    width: 100%;
+    margin: 10px auto;
+
+    
+}
+
+#register-form #register-btn{
+    background-color:rgb(128, 110, 254);
+    color: #fff;
+}
+
+#register-form #login-url{
+   color: rgb(128, 110, 254);
+}
+
+#register img{
+    width: 100%;
+    height: 350px;
+}
+
+/* account */
+
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 5px 10px 6px  rgb(8, 51, 116);
+    background-color: #fff;
+}
+
+#account-form input{
+    margin: 5px auto;
+}
+
+#account-form #change-pass-btn{
+    color: #fff;
+    background-color: rgb(8, 51, 116);
+}
+
+.account-info #order-btn,#logout-btn{
+    color: rgb(8, 51,116);
+    text-decoration: none;
+    
+    
+}
+
+#account img{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 140vh;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* orders in accounts*/
+
+.orders table{
+    width: 100%;
+    border-collapse: collapseorders
+}
+
+.orders .product-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th{
+    
+    padding: 5px 20px;
+    color: #fff;
+    background-color:  rgb(8, 51, 116) ;
+    text-align: center;
+    
+}
+
+.orders .order-details-btn{
+    color: #fff;
+    background-color: rgb(8, 51, 116) ;
+
+}
+
+.orders td{
+
+    padding: 10px 20px;
+    box-shadow: 0 0px 5px 2px  rgb(8, 51, 116);
+
+}
+
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+/* checkOut */
+
+#checkout-form{
+    box-shadow: 0 0px 15px;
+    padding: 8px;
+
+}
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+
+}
+
+
+#checkout-form .checkout-large-element{
+    width: 95%;
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn{
+   
+    color: #fff;
+    background-color: #0f96ea;
+}
+
+#checkout-form #checkout-btn:hover{
+   
+    color: black;
+    background-color: #cacaca;
+}
+
+#checkout img{
+    width: 100%;
+    height: 350px;
+}
+
+/* contact */
+
+#contact span{
+    color: #0f96ea;
+}
+
+
+#contact .one img{
+    width: 90%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    #contact .one{
+    
+        position: relative;
+    }
+    
+    #contact .one .details{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: x-large;
+        font-weight: 700;
+        transition: 0.4s ease;
+        opacity: 0.7;
+        background-color:  #176190;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    #contact h3 , .accordion-body{
+        color: #176190;
+        text-align: center;
+    }
+
+    #contact hr{
+        border: 2px dashed #176190;
+        
+    }
+
+
+
+    .cart-quantity{
+        background-color: #176190;
+        color: #fff ;
+        padding: 2px 5px;
+        border-radius: 50%;
+        margin: -5px;
+        font-size: 1rem;
+
+    }
+
+    /* typelogin */
+
