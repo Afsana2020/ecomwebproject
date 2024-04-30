@@ -17,7 +17,9 @@ Watch the Demo on YouTube:
 ## Features:
 
 1. Homepage: Engage users with dynamic content showcasing featured products and special offers, providing a glimpse into the website's offerings.
+
 ![home](https://github.com/Afsana2020/ecomwebproject/assets/65228189/6134d170-f99a-464c-b098-690438492819)
+Fig
 2. Navbar: Offer a user-friendly navigation bar with dropdown menus and clear categorization for easy access to different sections of the website. It remains accessible on all pages for convenient navigation.
 
 3. User Registration and Login: Enable secure account creation and login for users, with an option to change passwords on the account page.
