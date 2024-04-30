@@ -32,11 +32,13 @@ Watch the Demo on YouTube:
 
 8. Order Management: Provide users with access to their order history and status updates for efficient order tracking.
 
-9. Admin Dashboard: Offer administrators tools to efficiently manage products, orders, inventory, and user accounts, including adding, removing, or updating products and managing orders.
+9. Contact and FAQ: Provides all the details of the owner of the website so that user can connect with them.
 
-10. Security: Implement security measures such as password requirements, login warnings, and authentication checks during checkout to ensure user data protection.
+10. Admin Dashboard: Offer administrators tools to efficiently manage products, orders, inventory, and user accounts, including adding, removing, or updating products and managing orders.
 
-11. Responsive Design: Optimize the website for various devices, ensuring a seamless experience across desktops, tablets, and smartphones.
+11. Security: Implement security measures such as password requirements, login warnings, and authentication checks during checkout to ensure user data protection.
+
+12. Responsive Design: Optimize the website for various devices, ensuring a seamless experience across desktops, tablets, and smartphones.
 
 ## Tools Used:
 
